@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.main-title {
+  font-weight: 600;
+  font-size: 21rem;
+  line-height: 1;
+  text-align: center;
+  color: #021335;
+  opacity: 0.05;
+  margin: 0;
+}
+
+.bg-img {
+  background-image: url(../img/Main\ screen.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8.8rem 9.6rem;
+  margin-top: -6.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.container {
+  max-width: 1157px;
+  background-color: #FFFFFF;
+  border-radius: 3.6rem;
+  padding: 6.6rem 7.7rem 6.8rem 7.2rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container::after{
+  content: '';
+  position: absolute;
+  background-image: url(../img/stul.png);
+  background-repeat: no-repeat;
+  width: 25rem;
+  height: 20.9rem;
+  bottom: 13.8px;
+  right: -66.68px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3rem;
+}
+
+.user {
+  border-radius: 2.17rem;
+  margin-bottom: 3.6rem;
+}
+
+.user-info {
+  max-width: 21.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-info:not(:first-child) {
+  margin-top: 0.72rem;
+}
+
+.user-info strong {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #021335;
+}
+
+.user-info span {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #717886;
+}
+
+.card {
+  max-width: 28.9rem;
+}
+
+.page-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2.2rem;
+  color: #021335;
+  margin: 0;
+}
+
+.page-text {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 2.2rem;
+  color: #717886;
+  margin-top: 0.72rem;
+}
+
+.orange {
+  border-radius: 2.1rem;
+  background: #FF642E;
+  padding: 3rem 3rem 1.8rem 2rem;
+  margin-top: 2.9rem;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.ul {
+  list-style-position: inside;
+  padding: 0;
+  max-width: 26.6rem;
+}
+
+.ul-text {
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 2.2rem;
+  color: #717886;
+  margin-top: 0.72rem;
+}
+
+.box1,
+.box2 {
+  max-width: 28.9rem;
+}
+
+.box2,
+.box3 {
+  margin-top: 2.9rem;
+}
+
+.row-grid {
+  display: grid;
+  grid-template-columns: 25.7rem 25.7rem 25.7rem;
+  gap: 3rem;
+  align-items: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  max-width: 25.7rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0 0.72rem 0;
+}
+
+.text span {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  color: #717886;
+}
